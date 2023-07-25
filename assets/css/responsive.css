@@ -1,0 +1,137 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    /*::::::::::::::::::::::::::::::::::::
+	    Hease CSS
+	::::::::::::::::::::::::::::::::::::*/
+.social-area {
+  text-align: center;
+}
+.search-content {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+}
+.search-top form input {
+  display: inline-block;
+  max-width: 70%;
+}
+.form-inline .form-control {
+	width: 100%;
+}
+.top-search-btn {
+  text-align: right;
+  display: inline-block;
+  width: 28%;
+}
+
+
+.sub-menu {
+  visibility: visible;
+}
+ul li ul.sub-menu {
+  visibility: visible;
+  position: relative;
+  opacity: 1;
+}
+
+nav.mean-nav .main-menu ul li:hover ul.sub-menu {
+	visibility: inherit;
+	position: relative;
+	display: block;
+	background: #000;
+}
+.mean-nav {
+  background-color: #000;
+}
+.mean-container .mean-bar {
+  background: #000;
+}
+.main-menu {
+  background: #000;
+}
+.main-menu ul.sub-menu li a:hover {
+	background-color: #1a1a1a;
+}
+.logo-wideget.footer-wideget {
+	margin-bottom: 30px;
+}
+.about-instagram a {
+	margin-bottom: 30px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    
+    /*::::::::::::::::::::::::::::::::::::
+	    Hease CSS
+	::::::::::::::::::::::::::::::::::::*/
+.social-area {
+  text-align: center;
+}
+.search-content {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+}
+.search-top form input {
+  display: inline-block;
+  max-width: 70%;
+}
+.form-inline .form-control {
+	width: 100%;
+}
+.top-search-btn {
+  text-align: right;
+  display: inline-block;
+  width: 28%;
+}
+
+
+.sub-menu {
+  visibility: visible;
+}
+ul li ul.sub-menu {
+  visibility: visible;
+  position: relative;
+  opacity: 1;
+}
+
+nav.mean-nav .main-menu ul li:hover ul.sub-menu {
+	visibility: inherit;
+	position: relative;
+	display: block;
+	background: #000;
+}
+.mean-nav {
+  background-color: #000;
+}
+.mean-container .mean-bar {
+  background: #000;
+}
+.main-menu {
+  background: #000;
+}
+.main-menu ul.sub-menu li a:hover {
+	background-color: #1a1a1a;
+}
+.logo-wideget.footer-wideget {
+	margin-bottom: 30px;
+}
+}

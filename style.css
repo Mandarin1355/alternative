@@ -1,0 +1,715 @@
+/*::::::::::::::::::::::::::::::::::::::::
+
+Author	: 	AL Mamun
+Email	:	amamun.me@gmail.com
+
+::::::::::::::::::::::::::::::::::::::::*/
+
+/*::::::::::::::::::::::::::::::::::::::::
+
+Table of contents:
+ * Global CSS
+ * Hease CSS
+ 	* Header Top
+ 	* Logo Area
+
+
+::::::::::::::::::::::::::::::::::::::::*/
+
+/*Global CSS*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: #000;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: .3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+}
+
+img{
+	max-width: 100%;
+}
+
+.mt-100{
+	margin-top: 100px;
+}
+
+/*::::::::::::::::::::::::::::::::::::
+    Hease CSS
+::::::::::::::::::::::::::::::::::::*/
+
+/* Header Top*/
+.header-top{
+	background-color: #000;
+}
+.social-area a {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    opacity: .5;
+    transition: .3s;
+}
+
+.social-area a:hover {
+    opacity: 1;
+}
+
+.search-top form input {
+    background-color: transparent;
+    border: none;
+}
+
+.header-top {
+    padding: 5px 0;
+}
+.search-content {
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.search-content .form-control:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+button.top-search-btn {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	opacity: .5;
+	transition: .3s
+}
+button.top-search-btn:hover{
+	opacity: 1;
+}
+.social-area {
+    margin-top: 4px;
+}
+.search-top form input {padding: 0;font-size: 14px;}
+
+/*Logo Area*/
+.logo-area a{
+    font-size: 50px;
+    display: inline-block;
+}
+.logo-area .site-logo {
+    max-height: 70px;
+    margin: 30px 0;
+}
+
+/* Main Menu */
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #ddd;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 15px;
+    color: #000;
+}
+
+.main-menu ul li:hover > a{
+	text-decoration: underline;
+}
+
+/*	Sum Menu */
+ul.sub-menu {
+    position: absolute;
+    z-index: 99;
+    background-color: #fff;
+    min-width: 160px;
+    visibility: hidden;
+    transition: .3s;
+    opacity: 0;
+}
+
+.main-menu ul li:hover ul.sub-menu{
+	visibility: visible;
+	opacity: 1;
+
+}
+
+.main-menu ul.sub-menu li {
+    display: block;
+    text-align: left;
+}
+
+.main-menu ul.sub-menu li a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+/* Mean Menu */
+.mean-container .mean-bar {
+	float: none;
+	position: absolute;
+	top: 212px;
+}
+
+/*::::::::::::::::::::::::::::::::::::
+    Home Slider Area
+::::::::::::::::::::::::::::::::::::*/
+.img-content {
+    position: relative;
+    padding: 30px;
+    background-position: center;
+    width: auto;
+    background-size: contain;
+    height: 260px;
+}
+
+a.content-tag {
+    color: #fff;
+    background-color:#6b00c9;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.post-content {
+    position: relative;
+    padding: 30px;
+    z-index: 1;
+}
+
+.post-content:after {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: .5;
+    z-index: -1;
+}
+
+.post-content h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 15px;
+}
+p.content-meta, p.content-meta a {
+    color: #fff;
+    font-size: 14px;
+
+}
+p.content-meta a:hover {
+	color: #6b00c9;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::
+    Blog Content Area
+::::::::::::::::::::::::::::::::::::*/
+
+.one-col-content:hover img {
+  opacity: .8;
+}
+.one-col-content img {
+  transition: .3s;
+}
+.blog-post {
+  margin-top: 15px;
+}
+
+.blog-content {
+  padding: 45px 0;
+}
+.blog-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.post-meta, .post-meta a {
+  color: #aaa;
+  transition: .3s;
+}
+.post-meta a:hover {
+  color: #000;
+}
+
+
+h3.title a {
+    color: #000;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.content-img {
+    width: 100%;
+    height: 240px;
+    background-position: center;
+    background-size: cover;
+    background-color: #eee;
+    position: relative;
+}
+
+.content-img a.post-meta {margin: 30px;
+	display: inline-block;
+	color: #fff;
+	background-color: #6b00c9;
+	padding: 5px 12px;
+	font-size: 12px;
+	border-radius: 3px;}
+
+.blog-content .title a {
+    font-size: 24px;
+    font-weight: 400;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.blog-content .title a:hover {
+    color: #6b00c9;
+}
+
+p.post-meta {
+    font-size: 14px;
+}
+
+
+a.read-more-btn {
+	color: #6b00c9;
+	padding: 10px 20px;
+	border: 1px solid #6b00c9;
+	display: inline-block;
+	transition: .3s;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+a.read-more-btn:hover {
+    color: #fff;
+    background-color: #6b00c9;
+    border-color: #6b00c9;
+}
+
+
+
+a.instagram-img {
+    display: inline-block;
+}
+
+a.instagram-img img {
+    height: 160px;
+    margin-bottom: 30px;
+}
+a.instagram-img img:hover {
+    -webkit-filter: contrast(120%);
+    filter: contrast(110%);
+}
+.load-more-btn a {
+  background-color: #6b00c9;
+  padding: 15px 30px;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  transition: .3s;
+  border: 1px solid #6b00c9;
+}
+.single--blog.blog-content h1, 
+.single--blog.blog-content h2, 
+.single--blog.blog-content h3, 
+.single--blog.blog-content h4, 
+.single--blog.blog-content h5, 
+.single--blog.blog-content h6 {
+	margin: 15px 0;
+}
+.load-more-btn a:hover {
+  border-color: #6b00c9;
+  background-color: transparent;
+  color: #6b00c9;
+}
+
+
+blockquote {
+  margin: 30px 0;
+  background-color: #eee;
+  padding: 30px;
+  border-left: 10px solid #6b00cc;
+  color: #6b00cc;
+  font-size: 18px;
+}
+
+.social-share {
+  display: inline-block;
+}
+.share-area {
+  text-align: right;
+  border-top: 1px solid #ddd;
+  color: #aaa;
+  border-bottom: 1px solid #ddd;
+  padding: 7px 0;
+  position: relative;
+}
+.share-area span {
+  float: left;
+}
+.social-share a {
+  color: #aaa;
+  font-size: 14px;
+  margin: 0 15px;
+}
+.social-share a:last-child {
+  margin-right: 0;
+}
+.share-area:after {
+  position: absolute;
+  content: '';
+  background: #ddd;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+}
+
+
+.authore-area {
+  text-align: center;
+  padding: 30px;
+  margin: 45px 0 100px;
+  background-color: #efefef;
+}
+.authore-area img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fff;
+  box-shadow: 0 0 15px #ccc;
+  border-radius: 50%;
+}
+.authore-area h3 {
+  margin: 15px 0;
+}
+.authore-area p {
+  margin: 15px 0;
+}
+
+/*Comment Area*/
+
+.comment-area h2.comment-title {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.single-comment img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 15px #ddd;
+  position: absolute;
+}
+.single-comment {
+  background-color: #eee;
+  margin-bottom: 30px;
+  padding: 30px;
+  position: relative;
+}
+.comment-username {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 100px;
+}
+
+
+.comment-time {
+  margin-left: 100px;
+  font-size: 14px;
+  color: #999;
+}
+.comment-text {
+  margin-left: 100px;
+  color: #333;
+}
+.fas.fa-reply {
+}
+.comment-reply {
+  color: #000;
+  float: right;
+}
+.comment-reply:hover {
+  color: #6b00cc;
+}
+.single-comment.c-reply {
+	margin-left: 45px;
+}
+/*::::::::::::::::::::::::::::::::::::
+    Instagram Area
+::::::::::::::::::::::::::::::::::::*/
+
+.about-instagram h4 {
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-instagram h4:after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #6b00c9;
+    left: 0;
+    bottom: -10px;
+    position: absolute;
+}
+
+.about-instagram a {
+    color: #fff;
+    background-color: #6b00c9;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.instagram-area.bg-light {
+    padding: 100px 0 70px;
+}
+
+/*::::::::::::::::::::::::::::::::::::
+    Footer Area
+::::::::::::::::::::::::::::::::::::*/
+
+
+.widget {
+    margin-bottom: 60px;
+}
+
+h4.widget-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #eee;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.single-recent-post a.w-im {
+    display: inline-block;
+}
+
+.single-recent-post a.w-im img {
+    height: 60px;
+    max-width: 70px;
+    position: relative;
+}
+
+
+.single-recent-post a.w-p-t {
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    color: #000;
+}
+
+.single-recent-post {
+    margin-bottom: 15px;
+}
+
+.widget-news-letter {
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+}
+
+.widget-news-letter form input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+.widget-news-letter form button {
+    display: block;
+    width: 100%;
+    border: 1px solid #6b00c9;
+    background-color: transparent;
+    padding: 6px;
+    color: #6b00c9;
+    transition: .3s;
+}
+
+.widget-news-letter form button:hover {
+    background-color: #6b00c9;
+    color: #fff;
+    border-color: #6b00c9;
+}
+
+.categories a {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 15px;
+    color: #000;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+    transition: .3s;
+}
+
+.categories a span {position: absolute;right: 0;}
+
+.categories a:last-child {
+    border: none;
+}
+
+.categories a:hover {
+    color: #6b00c9;
+}
+.about-widget {
+    text-align: center;
+}
+
+.about-widget img {
+    margin-bottom: 15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 500%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px #eee;
+}
+.about-widget h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.social-links a {
+    font-size: 15px;
+    color: #000;
+    padding: 15px;
+    transition: .3s;
+}
+
+.social-links a:hover {
+    color: #6b00c9;
+}.widget-instagram ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget-instagram ul li {
+    display: inline-block;
+}
+
+.widget-instagram ul li a {
+    display: block;
+}
+
+.widget-instagram ul li a img {
+    width: 78px;
+    margin: 0 2px 8px;
+    height: 78px;
+    transition: .3s;
+}
+
+.widget-instagram ul li a img:hover {
+    opacity: .6;
+}
+
+/*::::::::::::::::::::::::::::::::::::
+    Footer Area
+::::::::::::::::::::::::::::::::::::*/
+
+footer.footer-area {
+    background-color: #000;
+    padding: 100px 0 15px;
+}
+
+footer.footer-area h4.widget-title {
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+footer.footer-area .widget-recent-post .single-recent-post a.w-p-t {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+footer.footer-area .widget .categories a {
+    color: #fff;
+    border-color: #111;
+}
+
+footer.footer-area .widget .categories a:hover {
+    color: #6b00c9;
+    text-decoration: none;
+}
+
+footer.footer-area .widget-recent-post .single-recent-post a.w-p-t:hover {
+    color: #6b00c9;
+}
+.copy-right {
+    border-top: 1px solid #111;
+    padding-top: 30px;
+}
+a.footer-logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #6b00c9;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 0;
+    line-height: 1;
+}
+.footer-logo img {
+	max-height: 45px;
+}
+.logo-wideget.footer-wideget p {
+    color: #fff;
+}
+
+
